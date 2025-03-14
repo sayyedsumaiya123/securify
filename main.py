@@ -9,7 +9,7 @@ from flask import Flask, request, jsonify
 from side_kick import *
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate("home-security-dce26-firebase-adminsdk-bp0es-aabe329b19.json")
+cred = credentials.Certificate("home-security-dce26-firebase-adminsdk-bp0es-6b6e4ffb6d.json")
 firebase_admin.initialize_app(cred, {
     'storageBucket': 'home-security-dce26.firebasestorage.app'
 })
