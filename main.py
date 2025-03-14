@@ -9,9 +9,9 @@ from flask import Flask, request, jsonify
 from side_kick import *
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate("home-security-dce26-firebase-adminsdk-bp0es-4e4034005f.json")
+cred = credentials.Certificate("./facial-recognition-proje-e0d1a-firebase-adminsdk-r6zfo-d8429d30df.json")
 firebase_admin.initialize_app(cred, {
-    'storageBucket': 'home-security-dce26.firebasestorage.app'
+    'storageBucket': 'facial-recognition-proje-e0d1a.firebasestorage.app'
 })
 
 
