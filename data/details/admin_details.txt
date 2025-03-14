@@ -1,0 +1,5 @@
+admin_name: Aayat Shaikh
+age: 18
+gender: female
+phone_no: 9323636470
+address: Mumbai
